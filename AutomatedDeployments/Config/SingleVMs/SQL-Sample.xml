@@ -10,7 +10,7 @@
   </Connections>
   <AzureVMGroups>
     <VMRole Name="SQLServers" StartingImageName="{SQL SERVER 2012 IMAGE NAME}" 
-            VMSize="A6" DataDiskSizesInGB="Data:20;Log:10" DefaultSQLDataFolder="F:\Data" 
+            VMSize="ExtraLarge" DataDiskSizesInGB="Data:20;Log:10" DefaultSQLDataFolder="F:\Data" 
 				DefaultSQLLogFolder="G:\Logs" SubnetNames="AppSubnet" ServiceAccountName="{ADMIN ACCOUNT}">
       <AzureVM Name="SQL1" />
     </VMRole>
